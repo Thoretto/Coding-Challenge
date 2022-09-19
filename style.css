@@ -1,0 +1,91 @@
+*{
+  margin: 10px;
+  padding: 0px;
+
+}
+
+body{
+
+  background-image: url(background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:100%;
+  background-attachment:fixed;
+  font-style:Sans-serif;
+
+}
+
+#conteiner{
+  width: 600px;
+  height: 600px;
+ margin: auto;
+ background-color:rgba(0,0,0,0.5);
+ padding: 5px;
+ border-radius: 5%;
+
+
+}
+
+/* impostazione header */
+header{
+  text-align: center;
+
+}
+.logo-text{
+color:limegreen;
+text-align: center;
+}
+
+.logo{
+  width: 200px;
+
+
+}
+/* barra di navigazione */
+nav{
+  padding:5px;
+  background-color: limegreen;
+  text-align: center;
+  margin:10px;
+  padding: 0px;
+  border: 50px;
+}
+.button{
+  width: 10px;
+  height: 50px;
+  margin: auto;
+
+}
+
+main{
+  text-align:left;
+  color: white;
+  display: block;
+}
+/* creazione della percentuale delle batterie */
+#battery1{
+  height: 15px;
+  width: 150px;
+  border:1px solid orange;
+  border-radius: 5%;
+  background-color: orange;
+  display:flex;
+}
+
+#battery2{
+  height: 15px;
+  width: 300px;
+  border:1px solid green;
+  border-radius: 5%;
+  background-color: green;
+  display:flex;
+}
+
+#battery3{
+    height: 15px;
+    width: 50px;
+    border:1px solid red;
+    border-radius: 5%;
+    background-color: red;
+    display:flex;
+}
